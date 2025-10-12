@@ -1,5 +1,5 @@
 
-# Hotel Reservation Django Project (SQLite)
+# Hotel Reservation Django Project (PosgreSQL)
 
 Minimal Django skeleton implementing:
 - Admin: Login, Create/Update Room, List/Approve/Cancel Reservations, Logout
