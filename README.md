@@ -12,3 +12,9 @@ How to run:
 3. Create superuser: `python manage.py createsuperuser`
 4. Run server: `python manage.py runserver`
 
+#pip install -r .\requirements.txt
+
+
+#python .\manage.py migrate
+
+#python .\manage.py runserver
