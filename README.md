@@ -37,7 +37,7 @@ A minimal Django project skeleton for a hotel reservation system with admin and 
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/anderson895/te-whare-runanga
 cd te-whare-runanga
 
 
