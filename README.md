@@ -1,20 +1,46 @@
+# Hotel Reservation Django Project
 
-# Hotel Reservation Django Project (PosgreSQL)
+A minimal Django project skeleton for a hotel reservation system with admin and customer features.  
 
-Minimal Django skeleton implementing:
-- Admin: Login, Create/Update Room, List/Approve/Cancel Reservations, Logout
-- Customer: Login, View Available Rooms, Make Reservation, Notifications, Reservation history, Logout
-- Database: SQLite (default Django DB for local)
+---
 
-How to run:
-1. Create a virtualenv and install requirements: `pip install -r requirements.txt`
-2. Run migrations: `python manage.py migrate`
-3. Create superuser: `python manage.py createsuperuser`
-4. Run server: `python manage.py runserver`
+## Features
 
-# pip install -r .\requirements.txt
+### Admin
+- Login / Logout
+- Create / Update Rooms
+- List / Approve / Cancel Reservations
+
+### Customer
+- Login / Logout
+- View Available Rooms
+- Make Reservations
+- Notifications
+- Reservation History
+
+### Database
+- Default: SQLite for local development
+- Optional: PostgreSQL (Supabase or other hosted database) for production
+
+---
+
+## Prerequisites
+
+- Python 3.10+  
+- pip  
+- Optional: PostgreSQL server (if using Postgres instead of SQLite)
+
+---
+
+## Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone <your-repo-url>
+cd te-whare-runanga
 
 
-# python .\manage.py migrate
-
-# python .\manage.py runserver
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
