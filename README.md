@@ -4,7 +4,7 @@
 Minimal Django skeleton implementing:
 - Admin: Login, Create/Update Room, List/Approve/Cancel Reservations, Logout
 - Customer: Login, View Available Rooms, Make Reservation, Notifications, Reservation history, Logout
-- Database: SQLite (default Django DB)
+- Database: SQLite (default Django DB for local)
 
 How to run:
 1. Create a virtualenv and install requirements: `pip install -r requirements.txt`
